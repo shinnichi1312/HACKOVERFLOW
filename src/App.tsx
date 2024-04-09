@@ -3,7 +3,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Dashboard from './pages/Dashboard'
 import Web3 from './pages/Web3'
 import Fullstack from './pages/Fullstack'
+import Card from './components/Card'
 import AIPage from './pages/AIPage'
+// import AIPage from './pages/AIPage'
 
 
 function App() {

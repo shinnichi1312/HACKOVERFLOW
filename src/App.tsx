@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Dashboard from './pages/Dashboard'
 import Web3 from './pages/Web3'
 import Fullstack from './pages/Fullstack'
-import Card from './components/Card'
 import AIPage from './pages/AIPage'
+
 // import AIPage from './pages/AIPage'
 
 
@@ -19,6 +19,7 @@ function App() {
                 <Route element={<Web3></Web3>} path='/Web3'></Route>
                 <Route element={<Fullstack></Fullstack>} path='/Fullstack'></Route>
                 <Route element={<AIPage></AIPage>} path='/AI'></Route>
+                
             </Routes>
        </BrowserRouter>
     </div>

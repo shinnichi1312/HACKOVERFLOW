@@ -1,8 +1,13 @@
 {
-    
+    "rewrites": [
+        {
+          "source": "/(.*)",
+          "destination": "/"
+        }
+      ],
     "builds": [
         {
-            "src":"src/pictures/**/*",
+            "src":"src/pictures/*",
             "use":"@vercel/static"
         },
         {

@@ -13,7 +13,7 @@ export default function () {
       title: "Moonbeam",
       link: "https://gomoonbeam.com",
       thumbnail:
-        "src/pictures/1 (1).jpg",
+        "https://photos.google.com/share/AF1QipPpSGHarOmNc70JIsOLhFs7j0hw6CbbPZJ3f-5ooZzd1YbCZTz8t0iUPOBF_0-xYQ/photo/AF1QipNEzwceoHxHVb79KWQ9vSJP5DAkZik8pwUf0--k?key=RjVrSHB2M0YwQU9mQjEyZlhLQTNjM2VCMWh4ZVh3",
     },
     {
       title: "Cursor",

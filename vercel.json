@@ -1,14 +1,14 @@
 {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
-      }
-    ],
+    
     "builds": [
         {
             "src":"src/pictures/**/*",
             "use":"@vercel/static"
+        },
+        {
+            "src":"src/**/*",
+            "use":"@vercel/static"
         }
     ]
   }
+ 

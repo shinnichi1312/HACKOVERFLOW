@@ -6,7 +6,7 @@ import SecondCompo from "../components/SecondCompo";
 
 
 export default function () {
-    return <div className="bg-[url('https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08')] w-fi">
+    return <div className="bg-[url('https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08')] overflow-x-hidden w-full">
         <motion.nav
             initial={{ opacity:0}}
             animate={{ opacity:1 }}

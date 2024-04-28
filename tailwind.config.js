@@ -15,6 +15,8 @@ module.exports = {
       animation: {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        refine:"refine 10s infinite"
+        
       },
       keyframes: {
         scroll: {
@@ -22,6 +24,16 @@ module.exports = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        refine: {
+          "0%": {
+            right: "100%",
+          },
+          
+          "100%": {
+            right: "0%",
+          },
+        }
+
       },
     },
   },

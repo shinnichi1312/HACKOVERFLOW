@@ -7,17 +7,17 @@ function Nav() {
   return (
     <div className="">
       <nav className="bg-tranparent p-10">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
-            
-              <div className="flex-shrink-0">
-                <img
-                  className="h-32 w-40 mr-20"
-                  src="src\components\img2.png"
-                  alt="hackOverflow"
-                />
-              </div>
-              <div className="-mr-2 flex md:hidden">
+
+            <div className="flex-shrink-0 ">
+              <img
+                className="h-32 w-40 mr-20"
+                src="src\components\img2.png"
+                alt="hackOverflow"
+              />
+            </div>
+            <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -61,45 +61,51 @@ function Nav() {
                 )}
               </button>
             </div>
-              <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
-                  <a
-                    href="/"
-                    className=" rounded-md px-3 py-2 text-lg font-medium text-white "
-                  >
-                    Home
-                  </a>
+            <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-4">
+                <a
+                  href="/"
+                  className=" rounded-md px-3 py-2 text-lg font-medium text-white "
+                >
+                  Home
+                </a>
 
-                  <button  onClick={() =>{
-                    window.location.href = "https://rns-hackoverflow-2.devfolio.co/?fbclid=PAZXh0bgNhZW0CMTEAAabvX_i3dA15wPORQ53MGxWRtbpYoZ-J4WNNUAWIpnLSsEcQZAmcWYZqmck_aem_AR36Cx7FuJ3I5bU1tecb5KsGOTIDzU0r68zhScPFM7X24WmMPtWeD5ti57jGch-n_efv-c5oh8wOn0adgLuNwQWy"
-                  }} className="rounded-md px-3 py-2 text-lg font-medium text-gray-400  hover:text-white">
-                    Register
-                  </button>
+                <button onClick={() => {
+                  window.open("https://rns-hackoverflow-2.devfolio.co/?fbclid=PAZXh0bgNhZW0CMTEAAabvX_i3dA15wPORQ53MGxWRtbpYoZ-J4WNNUAWIpnLSsEcQZAmcWYZqmck_aem_AR36Cx7FuJ3I5bU1tecb5KsGOTIDzU0r68zhScPFM7X24WmMPtWeD5ti57jGch-n_efv-c5oh8wOn0adgLuNwQWy", "_blank")
+                }} className="rounded-md px-3 py-2 text-lg font-medium text-gray-400  hover:text-white">
+                  Register
+                </button>
 
-                  <a
-                    href="/AI"
-                    className="rounded-md px-3 py-2 text-lg font-medium text-gray-400  hover:text-white"
-                  >
-                    AI
-                  </a>
+                <a
+                  href="/AI"
+                  className="rounded-md px-3 py-2 text-lg font-medium text-gray-400  hover:text-white"
+                >
+                  AI
+                </a>
+                <a
+                  href="/Cy"
+                  className="block rounded-md px-3 py-2 text-base font-medium text-gray-400  hover:text-white/80 hover:text-white"
+                >
+                  Cyber Seq
+                </a>
 
-                  <a
-                    href="/Fullstack"
-                    className="rounded-md px-3 py-2 text-lg font-medium text-gray-400   hover:text-white"
-                  >
-                    Full Stack
-                  </a>
+                <a
+                  href="/Fullstack"
+                  className="rounded-md px-3 py-2 text-lg font-medium text-gray-400   hover:text-white"
+                >
+                  Full Stack
+                </a>
 
-                  <a
-                    href="/Web3"
-                    className="rounded-md px-3 py-2 text-lg font-medium text-gray-400  hover:text-white"
-                  >
-                    Web 3
-                  </a>
-                </div>
+                <a
+                  href="/Web3"
+                  className="rounded-md px-3 py-2 text-lg font-medium text-gray-400  hover:text-white"
+                >
+                  Web 3
+                </a>
               </div>
-            
-            
+            </div>
+
+
           </div>
         </div>
 
@@ -121,17 +127,24 @@ function Nav() {
                 Home
               </a>
 
-              <button  onClick={() =>{
-                    window.location.href = "https://rns-hackoverflow-2.devfolio.co/?fbclid=PAZXh0bgNhZW0CMTEAAabvX_i3dA15wPORQ53MGxWRtbpYoZ-J4WNNUAWIpnLSsEcQZAmcWYZqmck_aem_AR36Cx7FuJ3I5bU1tecb5KsGOTIDzU0r68zhScPFM7X24WmMPtWeD5ti57jGch-n_efv-c5oh8wOn0adgLuNwQWy"
-                  }} className="block rounded-md px-3 py-2 text-base font-medium text-gray-400  hover:text-white/80 hover:text-white">
-                    Register
-                  </button>
+              <button onClick={() => {
+                window.location.href = "https://rns-hackoverflow-2.devfolio.co/?fbclid=PAZXh0bgNhZW0CMTEAAabvX_i3dA15wPORQ53MGxWRtbpYoZ-J4WNNUAWIpnLSsEcQZAmcWYZqmck_aem_AR36Cx7FuJ3I5bU1tecb5KsGOTIDzU0r68zhScPFM7X24WmMPtWeD5ti57jGch-n_efv-c5oh8wOn0adgLuNwQWy"
+              }} className="block rounded-md px-3 py-2 text-base font-medium text-gray-400  hover:text-white/80 hover:text-white">
+                Register
+              </button>
 
               <a
                 href="/AI"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-400  hover:text-white/80 hover:text-white"
               >
                 AI
+              </a>
+
+              <a
+                href="/Cy"
+                className="block rounded-md px-3 py-2 text-base font-medium text-gray-400  hover:text-white/80 hover:text-white"
+              >
+                Cyber Seq
               </a>
 
               <a
@@ -147,6 +160,7 @@ function Nav() {
               >
                 Web 3
               </a>
+
             </div>
           </div>
         </Transition>

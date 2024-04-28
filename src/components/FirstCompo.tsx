@@ -11,7 +11,7 @@ export default function({children , imgSrc }:{children:React.ReactNode , imgSrc:
             </CardItem>
         </CardBody>
     </CardContainer>
-    <div className=" flex flex-col justify-center transition-transform duration-300 transform hover:scale-110">
+    <div className="flex flex-col justify-center transition-transform duration-300 transform hover:scale-110">
         <img src={imgSrc} alt="" className="w-full " />
     </div>
 

@@ -9,6 +9,8 @@ import {
 } from "framer-motion";
 import { Link } from "react-router-dom";
 import { InfiniteMovingCards } from "./ImageSlider";
+import Timer from "./Timer";
+import Timeline from "./Timeline";
 
 
 export const HeroParallax = ({
@@ -58,7 +60,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[450vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] bg-black"
+      className=" h-[200vh] md:h-[300vh] py-20 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] bg-black"
     >
       <Header />
       <motion.div
@@ -87,13 +89,13 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-9xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 bg-black flex justify-center">
+    <div className="max-w-9xl relative mx-auto py-20 md:pt-40 pb-2 px-4 w-full  left-0 top-0 bg-black flex justify-center">
       <div>
 
       <h1 className="text-2xl md:text-7xl font-bold text-white text-center mb-10">
         HackOverflow 2.0
       </h1>
-      <p className="max-w-5xl text-base md:text-xl mt-8 text-neutral-200">
+      <p className="max-w-5xl text-base md:text-xl my-8 text-neutral-200 ">
         Building on Success: A Look Back at
         Hackathon 1.0
         <br />
@@ -105,10 +107,14 @@ export const Header = () => {
         collaborated to develop creative
         solutions, pushing the boundaries of
         innovation.
+
+      <br />
         
       </p>
       </div>
+      
     </div>
+
   );
 };
 

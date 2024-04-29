@@ -13,7 +13,7 @@ function Nav() {
             <div className="flex-shrink-0 ">
               <img
                 className="h-32 w-40 mr-20"
-                src="src\components\img2.png"
+                src="public/pictures/img2.png"
                 alt="hackOverflow"
               />
             </div>

@@ -63,7 +63,7 @@ export default function () {
           </div>
         </FirstCompo>
 
-        <SecondCompo imgSrc="public/pictures/1.jpg">
+        <SecondCompo imgSrc="pictures/1.jpg">
           <div className="text-3xl sm:text-4xl font-bold ">
             Popular Stacks for Full Stack Development
           </div>

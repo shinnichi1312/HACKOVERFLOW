@@ -37,7 +37,7 @@ export default function () {
             </p>
             <TypewriterEffect className="text-white" words={words} />
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-10">
-                <a href="https://rns-hackoverflow-2.devfolio.co/" target="_blank"> <button className="w-48 h-20 rounded-xl bg-purple-400 border dark:border-white border-transparent text-white text-xl">
+                <a href="https://rns-hackoverflow-2.devfolio.co/" target="_blank"> <button className="w-48 h-20 rounded-xl bg-purple-400 border dark:border-white border-transparent text-white font-bold text-xl">
                     Here!
                 </button></a>
 

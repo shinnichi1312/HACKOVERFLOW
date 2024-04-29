@@ -12,6 +12,10 @@ export default function () {
               <h3>Ayush </h3>
               <h3>6261508081</h3>
             </div>
+            <div className="text-lg px-5 pt-2">
+              <h3>Jyotheeshwar </h3>
+              <h3>7671919517</h3>
+            </div>
           </div>
           <div className="px-2 md:px-6 md:mx-10">
             <h1 className="text-3xl font-bold p-5 text-purple-400">Get Direction</h1>

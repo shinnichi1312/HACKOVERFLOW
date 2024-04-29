@@ -19,88 +19,88 @@ export default function () {
       title: "Cursor",
       link: "https://cursor.so",
       thumbnail:
-        "pictures/1 (2).JPG",
+        "pictures/1 (2).jpg",
     },
     {
       title: "Rogue",
       link: "https://userogue.com",
       thumbnail:
-        "pictures/1 (3).JPG",
+        "pictures/1 (3).jpg",
     },
 
     {
       title: "Editorially",
       link: "https://editorially.org",
       thumbnail:
-        "pictures/1 (4).JPG",
+        "pictures/1 (4).jpg",
     },
     {
       title: "Editrix AI",
       link: "https://editrix.ai",
       thumbnail:
-        "pictures/1 (5).JPG",
+        "pictures/1 (5).jpg",
     },
     {
       title: "Pixel Perfect",
       link: "https://app.pixelperfect.quest",
       thumbnail:
-        "pictures/1 (6).JPG",
+        "pictures/1 (6).jpg",
     },
 
     {
       title: "Algochurn",
       link: "https://algochurn.com",
       thumbnail:
-        "pictures/1 (7).JPG",
+        "pictures/1 (7).jpg",
     },
     {
       title: "Aceternity UI",
       link: "https://ui.aceternity.com",
       thumbnail:
-        "pictures/1 (8).JPG",
+        "pictures/1 (8).jpg",
     },
     {
       title: "Tailwind Master Kit",
       link: "https://tailwindmasterkit.com",
       thumbnail:
-        "pictures/1 (14).JPG",
+        "pictures/1 (14).jpg",
     },
     {
       title: "SmartBridge",
       link: "https://smartbridgetech.com",
       thumbnail:
-        "pictures/1 (9).JPG",
+        "pictures/1 (9).jpg",
     },
     {
       title: "Renderwork Studio",
       link: "https://renderwork.studio",
       thumbnail:
-        "pictures/1 (10).JPG",
+        "pictures/1 (10).jpg",
     },
 
     {
       title: "Creme Digital",
       link: "https://cremedigital.com",
       thumbnail:
-        "pictures/1 (11).JPG",
+        "pictures/1 (11).jpg",
     },
     {
       title: "Golden Bells Academy",
       link: "https://goldenbellsacademy.com",
       thumbnail:
-        "pictures/1 (12).JPG",
+        "pictures/1 (12).jpg",
     },
     {
       title: "Invoker Labs",
       link: "https://invoker.lol",
       thumbnail:
-        "pictures/1 (15).JPG",
+        "pictures/1 (15).jpg",
     },
     {
       title: "E Free Invoice",
       link: "https://efreeinvoice.com",
       thumbnail:
-        "pictures/1 (13).JPG",
+        "pictures/1 (13).jpg",
     },
   ];
   return <div className="bg-black h-full">

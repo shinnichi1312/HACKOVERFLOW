@@ -5,7 +5,7 @@ import SecondCompo from "../components/SecondCompo";
 
 export default function () {
   return (
-    <div className="bg-[url('https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08')] overflow-x-hidden w-full">
+    <div className="bg-[url('https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08')] overflow-hidden w-full">
       <motion.nav
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -18,7 +18,7 @@ export default function () {
       <TracingBeam className="">
         <div className="">
           <FirstCompo imgSrc="https://miro.medium.com/v2/resize:fit:828/format:webp/0*IA486V_rw1I8kjwX.jpg">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
               What is Cyber Security?
             </div>
             <div className="text-sm mr-28 pt-12 sm: pt-12">
@@ -40,7 +40,7 @@ export default function () {
           </FirstCompo>
 
           <SecondCompo imgSrc="https://miro.medium.com/v2/resize:fit:828/format:webp/0*uIYO5iuLJRcKcZ2O.png">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
               Elements of cybersecurity
             </div>
             <div className="text-sm mr-28 pt-12 sm:pt-12">
@@ -59,8 +59,8 @@ export default function () {
           </SecondCompo>
 
           <FirstCompo imgSrc="https://globalcybersecuritynetwork.com/wp-content/uploads/2023/02/benefits-of-using-ai-for-cybersecurity.jpg">
-            <div className="text-3xl sm:text-4xl font-bold ">
-              Benifits of Cyber Security
+            <div className="text-2xl sm:text-4xl font-bold ">
+              Benefits of Cyber Security
             </div>
             <div className="text-sm mr-28 pt-12 sm:pt-12">
               Many of us benefit from Cyber Security in our daily lives without even
@@ -85,7 +85,7 @@ export default function () {
           </FirstCompo>
 
           <SecondCompo imgSrc="https://assets-global.website-files.com/609be0ad60f16c3928f5d185/63fe02742ab46856523dd3d2_Organizational%20AppSec%20Challenges%20(1).jpg">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
               Challenges in Cyber-Security
             </div>
             <div className="text-sm mr-28 pt-12 sm:pt-12">

@@ -5,7 +5,7 @@ import SecondCompo from "../components/SecondCompo";
 
 export default function () {
   return (
-    <div className="bg-[url('https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08')] overflow-x-hidden w-full">
+    <div className="bg-[url('https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08')] overflow-hidden w-full">
       <motion.nav
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -18,7 +18,7 @@ export default function () {
       <TracingBeam className="">
         <div className="">
           <FirstCompo imgSrc="https://exeedcollege.com/wp-content/uploads/2023/07/web3-scaled.jpg">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
               What is Web 3?
             </div>
             <div className="text-sm mr-28 pt-12 sm: pt-12">
@@ -35,7 +35,7 @@ export default function () {
           </FirstCompo>
 
           <SecondCompo imgSrc="https://miro.medium.com/v2/resize:fit:828/format:webp/1*ZkM9izK2vWk55-NLdZ6GlQ.jpeg">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
               Impact of Blockchain on Web3
             </div>
             <div className="text-sm mr-28 pt-12 sm:pt-12">
@@ -49,7 +49,7 @@ export default function () {
           </SecondCompo>
 
           <FirstCompo imgSrc="https://d2nir1j4sou8ez.cloudfront.net/wp-content/uploads/2021/10/Web3-the-decentralized-web-of-future-1.png">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
               Advantages of Web3
             </div>
             <div className="text-sm mr-28 pt-12 sm:pt-12">
@@ -66,7 +66,7 @@ export default function () {
           </FirstCompo>
 
           <SecondCompo imgSrc="https://fintalent.io/wp-content/uploads/2022/08/3d-metaverse-virtual-reality-futuristic-web3-internet-avatar-augmented-reality-technology-illustration-1-min.jpg">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
               Challenges in Web 3
             </div>
             <div className="text-sm mr-28 pt-12 sm:pt-12">

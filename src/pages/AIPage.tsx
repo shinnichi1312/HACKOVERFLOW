@@ -6,7 +6,7 @@ import SecondCompo from "../components/SecondCompo";
 
 
 export default function () {
-    return <div className="bg-[url('https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08')] overflow-x-hidden h-full w-full">
+    return <div className="bg-[url('https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08')] overflow-hidden h-full w-full">
         <motion.nav
             initial={{ opacity:0}}
             animate={{ opacity:1 }}
@@ -20,7 +20,7 @@ export default function () {
         <TracingBeam className="">
             <div className="">
             <FirstCompo imgSrc="https://wallpapercave.com/wp/wp2316798.jpg">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
                     What is AI?
                 </div>
                 <div className="text-sm mr-28 pt-12 sm: pt-12">
@@ -32,7 +32,7 @@ export default function () {
             </FirstCompo>
 
             <SecondCompo imgSrc="https://static01.nyt.com/images/2023/04/02/business/02Altman-cover-illo/02Altman-cover-illo-videoSixteenByNine3000.jpg">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
                     Who invented AI? 
                 </div>
                 <div className="text-sm mr-28 pt-12 sm:pt-12">
@@ -41,7 +41,7 @@ export default function () {
             </SecondCompo>
 
             <FirstCompo imgSrc="https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/11/10/Pictures/ai-artificial-intelligence-and-financial-technology_405769b0-e4e3-11e8-b876-ee7dab6cad6d.jpg">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
                     Importance of AI
                 </div>
                 <div className="text-sm mr-28 pt-12 sm:pt-12">
@@ -53,7 +53,7 @@ export default function () {
             </FirstCompo>
 
             <SecondCompo imgSrc="https://itchronicles.com/wp-content/uploads/2020/11/AI-subpage-4-Feature.png">
-            <div className="text-3xl sm:text-4xl font-bold ">
+            <div className="text-2xl sm:text-4xl font-bold ">
                     How can I use AI?
                 </div>
                 <div className="text-sm mr-28 pt-12 sm:pt-12">
